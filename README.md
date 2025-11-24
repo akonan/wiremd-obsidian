@@ -19,7 +19,7 @@ Live preview wiremd mockup files with multiple visual styles directly in Obsidia
 1. **Clone this repository** into your Obsidian vault's plugins folder:
    ```bash
    cd /path/to/your/vault/.obsidian/plugins/
-   git clone https://github.com/yourusername/wiremd-obsidian.git wiremd-preview
+   git clone https://github.com/akonan/wiremd-obsidian.git wiremd-preview
    cd wiremd-preview
    ```
 
@@ -317,7 +317,7 @@ Contributions welcome! Please:
 
 ## Support
 
-- Report issues: [GitHub Issues](https://github.com/yourusername/wiremd-obsidian/issues)
+- Report issues: [GitHub Issues](https://github.com/akonan/wiremd-obsidian/issues)
 - Documentation: See [OBSIDIAN_PLUGIN_GUIDE.md](./OBSIDIAN_PLUGIN_GUIDE.md)
 - Wiremd docs: [wiremd repository](https://github.com/akonan/wiremd)
 
