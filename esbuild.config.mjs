@@ -30,10 +30,14 @@ const context = await esbuild.context({
 		"@lezer/common",
 		"@lezer/highlight",
 		"@lezer/lr",
-		...builtins
+		...builtins,
+		"node:process",
+		"node:path",
+		"node:url"
 	],
 	format: "cjs",
 	target: "es2020",
+	platform: "neutral",
 	logLevel: "info",
 	sourcemap: prod ? false : "inline",
 	treeShaking: true,

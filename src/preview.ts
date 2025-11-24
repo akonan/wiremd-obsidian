@@ -210,7 +210,7 @@ export class WiremdPreviewProcessor {
 
 			// Apply body classes (wmd-root, wmd-sketch, etc.) to content element
 			if (bodyClasses) {
-				bodyClasses.split(/\s+/).forEach(cls => {
+				bodyClasses.split(/\s+/).forEach((cls: string) => {
 					if (cls) contentEl.addClass(cls);
 				});
 			}
